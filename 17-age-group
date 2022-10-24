@@ -12,4 +12,3 @@ public String ageGroup(Integer n) {
     else {
         'Adult';
     }
-}

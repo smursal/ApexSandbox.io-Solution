@@ -1,0 +1,11 @@
+public Integer rockPaperScissors(String player1, String player2) {
+    if ( player == 'rock' && player 2 == 'paper'){
+        return 2;
+    }
+    else if(player == 'scissors' && player 2 == 'paper') {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}

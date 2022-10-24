@@ -1,19 +1,15 @@
 public String ageGroup(Integer n) {
-  String c = 'Child';
-  String i = 'Infant';
-  String y = 'Youth';
-  String a = 'Adult';
-  
-   if (n >= 0 && n<= 1 ){
-        return i;
-    }
-    else if (n >=2 && n <= 14) {
-        return  c;
 
-    else if (n >=15 && n <= 21) {
-        return y ;
+    if (n <= 1 ){
+        return 'Infant';
+    }
+    else if (n <= 14) {
+        return 'Child';
+
+    else if (n <= 21) {
+        return 'Youth';
     }
     else {
-        a;
+        'Adult'
     }
 }

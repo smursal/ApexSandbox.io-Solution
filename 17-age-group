@@ -10,6 +10,6 @@ public String ageGroup(Integer n) {
         return 'Youth';
     }
     else {
-        'Adult'
+        'Adult';
     }
 }

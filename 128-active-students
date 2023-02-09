@@ -2,6 +2,6 @@ public List<apxio__Student__c> selectActiveStudents() {
     
     List<apxio__Student__c> studentsList = new List<apxio__Student__c>();
     studentsList = [SELECT Id, Name FROM apxio__Student__c
-               WHERE apxio__Active__c = TRUE] AND Id != NULL AND Name != NULL]   ;
+               WHERE apxio__Active__c = TRUE AND Id != NULL AND Name != NULL]   ;
                System.debug(studentsList);
 }

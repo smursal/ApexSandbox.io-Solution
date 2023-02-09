@@ -1,0 +1,4 @@
+public List<apxio__Student__c> selectActiveStudents() {
+    return SELECT FIELDS (ALL)  FROM apxio__Student__c
+               WHERE apxio__Active__c = TRUE;
+}

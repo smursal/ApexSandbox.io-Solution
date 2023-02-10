@@ -6,3 +6,4 @@ public Id insertCourse(String name, String details, Integer credits) {
  if (credits == 1 || credits == 2 || credits == 3 credits == 4 ) {
     insert recordList;
 }
+return recordList.Id;

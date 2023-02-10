@@ -9,4 +9,4 @@ public Id insertCourse(String name, String details, Integer credits) {
     
     insert recordList;
 }
-return recordList.Id[0];
+return recordList.Id;

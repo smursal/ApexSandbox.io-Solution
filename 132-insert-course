@@ -1,6 +1,8 @@
 public Id insertCourse(String name, String details, Integer credits) {
     apxio__Course__c recordList = new apxio__Course__c;
+
     recordList.Name = name;
+
     recordList.apxio__Course_Details__c = details;
 
     recordList.apxio__Credits__c = String.valueOf(credits);
@@ -10,3 +12,4 @@ public Id insertCourse(String name, String details, Integer credits) {
     insert recordList;
 }
 return recordList.Id;
+}

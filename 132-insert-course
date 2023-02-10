@@ -4,7 +4,7 @@ public Id insertCourse(String name, String details, Integer credits) {
     recordList.apxio__Course_Details__c = details;
 
     recordList.apxio__Credits__c = String.valueOf(credits);
- if (credits == '1' || credits == '2' || credits == '3' credits == '4' ) {
+ if (credits == '1' || credits == '2' || credits == '3'|| credits == '4' ) {
     
     insert recordList;
 }

@@ -10,4 +10,5 @@ public String registerStudent(String name, String phone, String email) {
                   WHERE id = :Student.id] ;
    return StudentList.apxio__Registration_Number__c;
 }
+}
 

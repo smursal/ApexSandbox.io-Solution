@@ -1,13 +1,13 @@
 public String registerStudent(String name, String phone, String email) {
-    apxio__Course__c Student= new apxio__Course__c();
+    apxio__Student__c Student= new apxio__Student__c();
     Student.Name = name;
     Student.apxio__Phone__c = phone;
     Student.apxio__Email__c = email;
 
     insert Student;
 }
-   apxio__Course__c StudentList = [SELECT apxio__Registration_Number__c from apxio__Student__c
-                  WHERE id = Student.id] ;
-   return StudentList.apxio__Registration_Number__c
+  List<apxio__Student__c> StudentList = [SELECT apxio__Registration_Number__c from apxio__Student__c
+                  WHERE id = :Student.id] ;
+   return StudentList.apxio__Registration_Number__c;
 }
 

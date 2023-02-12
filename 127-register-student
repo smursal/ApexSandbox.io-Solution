@@ -9,4 +9,4 @@ public String registerStudent(String name, String phone, String email) {
  studentList.apxio__Registration_Number__c = [SELECT apxio__Registration_Number__c from apxio__Student__c
                   WHERE id =:studentList ];
 
-}
+

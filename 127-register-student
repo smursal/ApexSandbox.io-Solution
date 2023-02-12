@@ -1,8 +1,8 @@
 public String registerStudent(String name, String phone, String email) {
     List<apxio__Student__c> studentList = new List<apxio__Student__c>();
-    studentList.name = name;
-    studentList.phone = phone;
-    studentList.email = email;
+    studentList.Name = name;
+    studentList.apxio__Phone__c = phone;
+    studentList.apxio__Email__c = email;
 
     insert studentList;
 }

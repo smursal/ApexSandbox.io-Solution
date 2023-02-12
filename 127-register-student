@@ -6,8 +6,10 @@ public String registerStudent(String name, String phone, String email) {
 
     insert Student;
 }
-  List<apxio__Student__c> StudentList = [SELECT apxio__Registration_Number__c from apxio__Student__c
-                  WHERE id = :Student.id] ;
+
+  apxio__Student__c InsertedStudent = [SELECT apxio__Registration_Number__c 
+                                      FROM apxio__Student__c
+                                     WHERE id = :Student.id] ;
    
-    return  StudentList.apxio__Registration_Number__c;
+    return  InsertedStudent.apxio__Registration_Number__c;
 

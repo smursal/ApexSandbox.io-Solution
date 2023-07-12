@@ -17,4 +17,3 @@ public Boolean isPrime(Integer num) {
    return prime;
 
 }
-}

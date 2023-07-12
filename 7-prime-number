@@ -1,0 +1,20 @@
+public Boolean isPrime(Integer num) {
+   
+ //code here
+
+ Boolean prime = true; 
+
+   for(integer i = 2; i < num; i++){ 
+
+      if((Math.Mod(Num,i)) == 0) {
+
+       prime = false; 
+
+      }
+
+   }
+
+   return prime;
+
+}
+}

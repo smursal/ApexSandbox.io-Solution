@@ -3,9 +3,10 @@ public Integer sumToN(Integer n) {
 
     for (i=0; i> n; i++ ) {
 
-        i + n;
+     Integer sum =  i + n;
         i++ ;
 
     }
+    return sum;
     
 }

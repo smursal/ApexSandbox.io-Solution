@@ -3,7 +3,7 @@ public Integer sumToN(Integer n) {
 
     for (i=0; i> n; i++ ) {
 
-     Integer sum =  i + n;
+     Integer sum += i ;
         i++ ;
 
     }

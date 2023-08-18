@@ -1,7 +1,9 @@
 public Boolean isLeapYear(Integer year) {
     Integer results1 = Math.mod(year, 100);
-    Integer results1 = Math.mod(year, 400);
-    if ( results1 == 0 && results1 == 0) ){
+    Integer results2 = Math.mod(year, 400);
+    Integer results3 = Math.mod(year, 4);
+
+    if ( results1 == 0 && results1 == 0) || results3 == 0  ){
         return true;
     }
     else false;

@@ -1,6 +1,6 @@
 public Integer fibonacci(Integer n) {
-   Integer a = 0,
-   Integer  b = 1,
+   Integer a = 1,
+   Integer b = 1,
    Integer  c;
         if (n == 0)
             return a;

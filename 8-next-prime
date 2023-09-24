@@ -1,0 +1,27 @@
+public Integer nextPrime(Integer num) {
+ if (num < 2) return 2; 
+
+while (!isPrime(++num));
+
+return num;
+}
+
+public Boolean isPrime(Integer num) {
+   
+ //code here
+
+ Boolean prime = true; 
+
+   for(integer i = 2; i < num; i++){ 
+
+      if((Math.Mod(Num,i)) == 0) {
+
+       prime = false; 
+
+      }
+
+   }
+
+   return prime;
+
+}

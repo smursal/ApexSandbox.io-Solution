@@ -1,7 +1,9 @@
 public String reverseWordsInASentence(String sentence){
-if ( sentence = null) {
+String reverse = sentence.reverse();
+if ( reverse = null) {
     return null;
 }
-String reverse = sentence.reverse();
-return reverse;
+
+else {
+    return reverse;
 }
